@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  background-color: #EFECEC;
+  font-family:Helvetica;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.texto {
+  font-family: 'Helvetica'; /* Cambia 'Helvetica' al tipo de letra que desees */
+  /* Otros estilos si es necesario */
+  text-align: center;
+  color:white;
+}
+.Rectangulogris{
+  background-color: #B5B5B5;
+  border:1px solid black;
+  height:700px;
+  border-radius: 40px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Rectanguloblanco{
+  background-color: white;
+  border:1px solid white;
+  height:600px;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boton-sinseleccionar {
+  background-color: #D0CFCF; /* Color de fondo del botón */
+  border: none;
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+
+
+  border-top-left-radius: 30px; /* Borde redondeado superior izquierdo */
+  border-top-right-radius: 0; /* Borde redondeado superior derecho */
+  border-bottom-left-radius: 30px; /* Borde redondeado inferior izquierdo */
+  border-bottom-right-radius: 0; 
+  margin-bottom: 20px;
+  cursor: 'pointer';
+}
+.boton-seleccionado {
+  background-color: #A2A2A2; /* Color de fondo del botón */
+  border: none;
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+
+
+  border-top-left-radius: 30px; /* Borde redondeado superior izquierdo */
+  border-top-right-radius: 0; /* Borde redondeado superior derecho */
+  border-bottom-left-radius: 30px; /* Borde redondeado inferior izquierdo */
+  border-bottom-right-radius: 0; 
+  margin-bottom: 20px;
+}
+.Rectangulografica{
+  background-color: white;
+}
+.boton-mover{
+  background-color: #A6D8F5;
+  border-radius: 20px;
+  height: 249px;
+  width:  425px;
+  border: none;
+}
+.boton-mover-seleccionado{
+  background-color: #6699D8;
+  border-radius: 20px;
+  height: 249px;
+  width:  425px;
+  border: none;
+}
+.boton-detener{
+  background-color: #F89292;
+  border-radius: 20px;
+  height: 530px;
+  width:  425px;
+  border: none;
+}
+.boton-detener-seleccionado{
+  background-color: #D65656;
+  border-radius: 20px;
+  height: 530px;
+  width:  425px;
+  border: none;
+}
